@@ -1,0 +1,96 @@
+/* ==== GOOGLE MAPS ====== */   
+
+html, body {
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#map {
+ height: 100%;
+}
+
+div.logo {
+ position: fixed;
+ top: 0;
+ z-index: 20;
+ margin-left: 20px;
+}
+
+img.flickrImage {
+ margin-right: 10px;
+ margin-bottom: 6px;
+ border: 1px solid #9bb57c;
+}
+
+h2 {
+ font-family: 'Playball', cursive;
+ text-shadow: 0 0 3px #c9dfaf;
+}
+
+p {
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #9bb57c;
+}
+
+
+
+div.content {
+    margin: 20px;
+    margin-top: 65px;
+}
+
+/* @media stuff */
+
+@media (max-width: 600px) {
+    div.panel {
+
+     background-color: #c9dfaf;
+
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     height: 300px;
+
+     z-index: 10;
+
+     border-width: 2px; 
+     border-top-style: solid; 
+     border-color: #9bb57c;
+
+    }
+
+    div.content {
+    margin-top: 20px;
+}
+
+
+}
+
+@media (min-width: 600px) {
+    div.panel {
+
+     background-color: #c9dfaf;
+
+     max-width: 30%;
+     min-width: 310px;
+     
+     height: 100%;
+
+     overflow: hidden;
+     position: absolute;
+
+     top: 0px;
+     left: 0px;
+     z-index: 10;
+
+     border-width: 2px; 
+     border-right-style: solid; 
+     border-color: #9bb57c;
+
+    }
+}
