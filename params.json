@@ -1,0 +1,6 @@
+{
+  "name": "Worldpics",
+  "tagline": "Shows geotagged Flickr photos from wherever you click on the Google Map",
+  "body": "# World Pics\r\n\r\nA simple JavaScript app that uses Google Maps API to show a map along with Flickr API to locate geotagged photos.\r\n\r\n# Tech used:\r\n\r\n* Google Maps API\r\n* Flickr API\r\n* [Featherlight](https://github.com/noelboss/featherlight/) by [Noelboss](https://github.com/noelboss)\r\n\r\n# Credits:\r\n\r\n* This is a reworking of [finalgroupproject1](https://github.com/y908/finalgroupproject1) by [y908](https://github.com/y908)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
